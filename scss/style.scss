@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+}
+h1{
+    text-align: center;
+    font-size: 75px;
+    color:#fff;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #2b4162;
+    background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+}
+h2{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+h3{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #2b4162;
+    background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+}
+h5{
+    color: #fff;
+}
+.footer {
+    background-color: #2b4162;
+    background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+  }
+  
+  footer {
+    a {
+      &:active, &:focus, &:hover {
+        color: #fff;
+        background-color: #3b3737;
+      }
+    }
+  
+    ul li a {
+      background-color: #eceeef;
+      color: #818a91;
+      font-size: 24px;
+      display: inline-block;
+      line-height: 44px;
+      width: 44px;
+      height: 44px;
+      text-align: center;
+      margin-right: 8px;
+      border-radius: 100%;
+      text-decoration: none;
+  
+      &.facebook:hover {
+        background-color: #3b5998;
+      }
+  
+      &.instagram:hover {
+        background-color: #ea4c89;
+      }
+  
+      &.email:hover {
+        background-color: #ed0000;
+      }
+    }
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .formulario {
+    font-family: 'Quicksand', sans-serif;
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 20px 0 #fff;
+    border-radius: 1%;
+  }
+  
+  h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 20px;
+    min-height: 150px;
+    max-height: 250px;
+    max-width: 100%;
+  }
+  
+  .boton {
+    background-color: #2b4162;
+    padding: 20px;
+    color: #fff;
+  
+    &:hover {
+      cursor: pointer;
+      background: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+      transition: 1s ease-in-out;
+    }
+  }
+  
+  label {
+    color: #fff;
+  }
+  
+  .map {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 0 0 20px 0 #fff;
+    border-radius: 1%;
+    height: auto;
+    width: 400px;
+  
+    ul, p {
+      text-align: center;
+      padding: 1em;
+    }
+  
+    ul {
+      list-style: none;
+      padding: 0;
+  
+      li {
+        padding: .3em;
+  
+        a {
+          text-decoration: none;
+          color: white;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  
+  .productos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 450px;
+    margin: auto;
+  }
+  
+  .marketing {
+    .col-lg-4 {
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+  
+    h2 {
+      font-weight: 400;
+    }
+  
+    .col-lg-4 p {
+      color: #fff;
+      margin-right: .75rem;
+      margin-left: .75rem;
+    }
+  }
+  
+  h5, .pcarousel {
+    color: #fff;
+  }
+  
+  .imgindex {
+    border-radius: 100%;
+  }
+  
+  .contacto {
+    background-image: url(/img/contact.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .glasses {
+    background-image: url(/img/glasses.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .sunglasses {
+    background-image: url(/img/sunglasses.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .blueblockers {
+    background-image: url(/img/blueblocker.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+@media (max-width:480px) {
+  .grid{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+  }
+}
